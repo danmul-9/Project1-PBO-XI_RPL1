@@ -64,7 +64,7 @@ import java.util.Scanner;
 
             do {
                 //transaction start
-                System.out.println("=======>> TRANSAKSI <<<=======");
+                System.out.println("=======>>> TRANSAKSI DISINI <<<=======");
 
                 System.out.print("No Transaksi : ");
                 no_transaksi = input.next();
