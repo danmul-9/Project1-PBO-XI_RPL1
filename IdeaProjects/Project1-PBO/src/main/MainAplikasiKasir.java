@@ -7,10 +7,10 @@ import java.util.Scanner;
 
     public class MainAplikasiKasir {
         public DaftarMenu daftarMenu;
-        // inisiasi pajak start
+        // Mulai inisiasi pajak
         public static double PAJAK_PPN = 0.10;
         public static double BIAYA_SERVICE = 0.05;
-        // inisiasi pajak end
+        // Sudah inisiasi pajak
 
         // Daftar Menu (generate method)
         public void generateDaftarMenu(){
