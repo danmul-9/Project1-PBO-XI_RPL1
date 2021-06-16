@@ -7,12 +7,12 @@ import java.util.Scanner;
 
     public class MainAplikasiKasir {
         public DaftarMenu daftarMenu;
-        // initiate pajak start
+        // inisiasi pajak start
         public static double PAJAK_PPN = 0.10;
         public static double BIAYA_SERVICE = 0.05;
-        // initiate pajak end
+        // inisiasi pajak end
 
-        // generate method
+        // Daftar Menu (generate method)
         public void generateDaftarMenu(){
             daftarMenu = new DaftarMenu();
             daftarMenu.tambahMenu(new Ramen("Ramen Original", 18000));
@@ -63,7 +63,7 @@ import java.util.Scanner;
             app.generateDaftarMenu();
 
             do {
-                //transaction start
+                //Mulai Transaksi
                 System.out.println("=======>>> TRANSAKSI DISINI <<<=======");
 
                 System.out.print("No Transaksi : ");
